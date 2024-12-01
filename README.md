@@ -1,7 +1,21 @@
-# Time-Series
-This is a corner for my acknowledge at University of Science with Time Series Course, where is a place I post a homework, my note and topic to discuss
+# FastAPI
+This is a corner for the first backend project
 
-This is a book, I learned that, I think this book has full concept and formular, but it is not clearly. However, it has many source code useful.
+# Set up project
+Install all packages for the project
+``` bash
+    pip install -r requirements.txt
+```
 
+# Run Database
+Open docker app
+``` bash
+    docker-compose up -d
+    docker ps
+```
 
-![series book](https://github.com/hangtantai/Time-Series/assets/133491245/5e6ddc46-b9a0-4dd4-87fa-6db09c3d3891)
+# Run the project
+``` bash
+    export PYTHONPATH=$PWD
+    python3 main.py
+```
